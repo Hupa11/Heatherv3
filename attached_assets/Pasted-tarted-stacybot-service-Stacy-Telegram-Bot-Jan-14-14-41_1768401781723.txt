@@ -1,0 +1,29 @@
+tarted stacybot.service - Stacy Telegram Bot.
+Jan 14 14:41:49 null systemd[1]: stacybot.service: Main process exited, code=exited, status=1/FAILURE
+Jan 14 14:41:49 null systemd[1]: stacybot.service: Failed with result 'exit-code'.
+Jan 14 14:41:49 null systemd[1]: stacybot.service: Consumed 2.061s CPU time.
+Jan 14 14:41:59 null systemd[1]: stacybot.service: Scheduled restart job, restart counter is at 16.
+Jan 14 14:41:59 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 14:42:02 null systemd[1]: stacybot.service: Main process exited, code=exited, status=1/FAILURE
+Jan 14 14:42:02 null systemd[1]: stacybot.service: Failed with result 'exit-code'.
+Jan 14 14:42:02 null systemd[1]: stacybot.service: Consumed 2.303s CPU time.
+Jan 14 14:42:12 null systemd[1]: stacybot.service: Scheduled restart job, restart counter is at 17.
+Jan 14 14:42:12 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 14:42:15 null systemd[1]: stacybot.service: Main process exited, code=exited, status=1/FAILURE
+Jan 14 14:42:15 null systemd[1]: stacybot.service: Failed with result 'exit-code'.
+Jan 14 14:42:15 null systemd[1]: stacybot.service: Consumed 2.313s CPU time.
+Jan 14 14:42:25 null systemd[1]: stacybot.service: Scheduled restart job, restart counter is at 18.
+Jan 14 14:42:25 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 14:42:28 null systemd[1]: stacybot.service: Main process exited, code=exited, status=1/FAILURE
+Jan 14 14:42:28 null systemd[1]: stacybot.service: Failed with result 'exit-code'.
+Jan 14 14:42:28 null systemd[1]: stacybot.service: Consumed 2.031s CPU time.
+Jan 14 14:42:38 null systemd[1]: stacybot.service: Scheduled restart job, restart counter is at 19.
+Jan 14 14:42:38 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 14:42:41 null systemd[1]: stacybot.service: Main process exited, code=exited, status=1/FAILURE
+Jan 14 14:42:41 null systemd[1]: stacybot.service: Failed with result 'exit-code'.
+Jan 14 14:42:41 null systemd[1]: stacybot.service: Consumed 2.025s CPU time.
+Jan 14 14:42:51 null systemd[1]: stacybot.service: Scheduled restart job, restart counter is at 20.
+Jan 14 14:42:51 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 14:42:53 null systemd[1]: stacybot.service: Main process exited, code=exited, status=1/FAILURE
+Jan 14 14:42:53 null systemd[1]: stacybot.service: Failed with result 'exit-code'.
+Jan 14 14:42:53 null systemd[1]: stacybot.service: Consumed 1.961s CPU time.

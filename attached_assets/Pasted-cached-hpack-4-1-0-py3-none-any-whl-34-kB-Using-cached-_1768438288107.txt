@@ -1,0 +1,11 @@
+cached hpack-4.1.0-py3-none-any.whl (34 kB)
+Using cached hyperframe-6.1.0-py3-none-any.whl (13 kB)
+Installing collected packages: rfc3986, raven, pytz, importlib, docopt, urllib3, typing-extensions, soupsieve, sniffio, six, python-dotenv, pyflakes, pycparser, pycodestyle, psutil, propcache, pluggy, platformdirs, pathspec, packaging, mypy-extensions, multidict, msgpack, mccabe, lxml, iniconfig, idna, hyperframe, hpack, h11, frozenlist, click, charset-normalizer, certifi, attrs, yarl, user-agent, requests, python-dateutil, pytest, h2, flake8, cffi, beautifulsoup4, anyio, aiosignal, pytest-asyncio, influxdb, httpcore, faker, cryptography, aiohttp, metrics-collector, httpx, black, python-telegram-bot
+Successfully installed aiohttp-3.9.1 aiosignal-1.4.0 anyio-4.12.1 attrs-25.4.0 beautifulsoup4-4.12.2 black-23.12.0 certifi-2023.7.22 cffi-2.0.0 charset-normalizer-3.3.2 click-8.1.7 cryptography-41.0.7 docopt-0.6.2 faker-20.1.0 flake8-6.1.0 frozenlist-1.8.0 h11-0.14.0 h2-4.3.0 hpack-4.1.0 httpcore-0.16.3 httpx-0.23.3 hyperframe-6.1.0 idna-3.6 importlib-1.0.4 influxdb-5.3.2 iniconfig-2.3.0 lxml-4.9.3 mccabe-0.7.0 metrics-collector-0.2.0 msgpack-1.1.2 multidict-6.7.0 mypy-extensions-1.1.0 packaging-25.0 pathspec-1.0.3 platformdirs-4.5.1 pluggy-1.6.0 propcache-0.4.1 psutil-7.2.1 pycodestyle-2.11.1 pycparser-2.23 pyflakes-3.1.0 pytest-7.4.3 pytest-asyncio-0.21.1 python-dateutil-2.9.0.post0 python-dotenv-1.0.0 python-telegram-bot-20.1 pytz-2025.2 raven-6.10.0 requests-2.31.0 rfc3986-1.5.0 six-1.17.0 sniffio-1.3.1 soupsieve-2.8.1 typing-extensions-4.15.0 urllib3-2.0.7 user-agent-0.1.9 yarl-1.22.0
+[WARN] .env file not found. Using environment variables or defaults.
+Traceback (most recent call last):
+  File "/home/nulladmin/stacy-bot/transferto.py", line 15, in <module>
+    from config import BOT_TOKEN, PROXY, GATEWAY_AMOUNTS, REQUEST_TIMEOUT, RETRY_ATTEMPTS, COLOR_RED, COLOR_GREEN, COLOR_GRAY, COLOR_ORANGE, COLOR_RESET
+  File "/home/nulladmin/stacy-bot/config.py", line 31, in <module>
+    raise ValueError("BOT_TOKEN not set. Please set BOT_TOKEN in .env or environment.")
+ValueError: BOT_TOKEN not set. Please set BOT_TOKEN in .env or environment.

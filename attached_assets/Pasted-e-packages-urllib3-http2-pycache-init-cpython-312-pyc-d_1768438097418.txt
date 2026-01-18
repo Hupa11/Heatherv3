@@ -1,0 +1,53 @@
+e-packages/urllib3/http2/__pycache__/__init__.cpython-312.pyc
+        deleted:    venv/lib/python3.12/site-packages/urllib3/http2/__pycache__/connection.cpython-312.pyc
+        deleted:    venv/lib/python3.12/site-packages/urllib3/http2/__pycache__/probe.cpython-312.pyc
+        deleted:    venv/lib/python3.12/site-packages/urllib3/http2/connection.py
+        deleted:    venv/lib/python3.12/site-packages/urllib3/http2/probe.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/poolmanager.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/response.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/__init__.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/connection.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/proxy.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/request.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/response.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/retry.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/ssl_.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/ssl_match_hostname.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/ssltransport.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/timeout.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/url.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/util.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/__pycache__/wait.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/connection.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/request.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/retry.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/ssl_.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/ssl_match_hostname.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/ssltransport.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/timeout.py
+        modified:   venv/lib/python3.12/site-packages/urllib3/util/url.py
+        modified:   venv/lib/python3.12/site-packages/user_agent/__pycache__/__init__.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/user_agent/__pycache__/base.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/user_agent/__pycache__/device.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/user_agent/__pycache__/error.cpython-312.pyc
+        modified:   venv/lib/python3.12/site-packages/user_agent/__pycache__/warning.cpython-312.pyc
+        modified:   venv/pyvenv.cfg
+
+no changes added to commit (use "git add" and/or "git commit -a")
+~ cd /home/nulladmin/stacy-bot
+git init
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git fetch origin
+git reset --hard origin/main
+Reinitialized existing Git repository in /home/nulladmin/stacy-bot/.git/
+error: remote origin already exists.
+remote: Enumerating objects: 1673, done.
+remote: Counting objects: 100% (1673/1673), done.
+remote: Compressing objects: 100% (102/102), done.
+remote: Total 893 (delta 165), reused 881 (delta 153), pack-reused 0 (from 0)
+Receiving objects: 100% (893/893), 189.47 KiB | 798.00 KiB/s, done.
+Resolving deltas: 100% (165/165), completed with 124 local objects.
+From github.com:NullMeDev/Stacy
+   3436d41..dd4211b  main       -> origin/main
+ * [new tag]         v2.0.0     -> v2.0.0
+HEAD is now at dd4211b Phase 3: Update all remaining Stripe gates to use store-specific public key extraction

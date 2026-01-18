@@ -1,0 +1,43 @@
+sing cached hpack-4.1.0-py3-none-any.whl (34 kB)
+Using cached hyperframe-6.1.0-py3-none-any.whl (13 kB)
+Installing collected packages: hyperframe, hpack, h2
+ERROR: Could not install packages due to an OSError: [Errno 13] Permission denied: '/opt/stacybot/venv/lib/python3.12/site-packages/hyperframe'
+Check the permissions.
+
+(venv) ~ pipx inject stacybot httpx[http2]
+sudo systemctl restart stacybot
+zsh: no matches found: httpx[http2]
+(venv) ~ sudo /opt/stacybot/venv/bin/pip install 'httpx[http2]'
+sudo systemctl restart stacybot
+Requirement already satisfied: httpx[http2] in ./venv/lib/python3.12/site-packages (0.28.1)
+Requirement already satisfied: anyio in ./venv/lib/python3.12/site-packages (from httpx[http2]) (4.12.1)
+Requirement already satisfied: certifi in ./venv/lib/python3.12/site-packages (from httpx[http2]) (2026.1.4)
+Requirement already satisfied: httpcore==1.* in ./venv/lib/python3.12/site-packages (from httpx[http2]) (1.0.9)
+Requirement already satisfied: idna in ./venv/lib/python3.12/site-packages (from httpx[http2]) (3.11)
+Collecting h2<5,>=3 (from httpx[http2])
+  Using cached h2-4.3.0-py3-none-any.whl.metadata (5.1 kB)
+Collecting hyperframe<7,>=6.1 (from h2<5,>=3->httpx[http2])
+  Using cached hyperframe-6.1.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting hpack<5,>=4.1 (from h2<5,>=3->httpx[http2])
+  Using cached hpack-4.1.0-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: h11>=0.16 in ./venv/lib/python3.12/site-packages (from httpcore==1.*->httpx[http2]) (0.16.0)
+Requirement already satisfied: typing_extensions>=4.5 in ./venv/lib/python3.12/site-packages (from anyio->httpx[http2]) (4.15.0)
+Using cached h2-4.3.0-py3-none-any.whl (61 kB)
+Using cached hpack-4.1.0-py3-none-any.whl (34 kB)
+Using cached hyperframe-6.1.0-py3-none-any.whl (13 kB)
+Installing collected packages: hyperframe, hpack, h2
+Successfully installed h2-4.3.0 hpack-4.1.0 hyperframe-6.1.0
+(venv) ~ sudo chown -R $USER:$USER /opt/stacybot/venv
+pip install 'httpx[http2]'
+sudo systemctl restart stacybot
+Requirement already satisfied: httpx[http2] in ./venv/lib/python3.12/site-packages (0.28.1)
+Requirement already satisfied: anyio in ./venv/lib/python3.12/site-packages (from httpx[http2]) (4.12.1)
+Requirement already satisfied: certifi in ./venv/lib/python3.12/site-packages (from httpx[http2]) (2026.1.4)
+Requirement already satisfied: httpcore==1.* in ./venv/lib/python3.12/site-packages (from httpx[http2]) (1.0.9)
+Requirement already satisfied: idna in ./venv/lib/python3.12/site-packages (from httpx[http2]) (3.11)
+Requirement already satisfied: h2<5,>=3 in ./venv/lib/python3.12/site-packages (from httpx[http2]) (4.3.0)
+Requirement already satisfied: hyperframe<7,>=6.1 in ./venv/lib/python3.12/site-packages (from h2<5,>=3->httpx[http2]) (6.1.0)
+Requirement already satisfied: hpack<5,>=4.1 in ./venv/lib/python3.12/site-packages (from h2<5,>=3->httpx[http2]) (4.1.0)
+Requirement already satisfied: h11>=0.16 in ./venv/lib/python3.12/site-packages (from httpcore==1.*->httpx[http2]) (0.16.0)
+Requirement already satisfied: typing_extensions>=4.5 in ./venv/lib/python3.12/site-packages (from anyio->httpx[http2]) (4.15.0)
+(venv) ~ 

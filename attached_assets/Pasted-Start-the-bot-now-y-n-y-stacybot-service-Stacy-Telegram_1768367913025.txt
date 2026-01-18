@@ -1,0 +1,34 @@
+Start the bot now? (y/n)
+y
+● stacybot.service - Stacy Telegram Bot
+     Loaded: loaded (/etc/systemd/system/stacybot.service; enabled; preset: enabled)
+     Active: activating (auto-restart) (Result: exit-code) since Wed 2026-01-14 05:17:59 UTC; 1s ago
+    Process: 264994 ExecStart=/opt/stacybot/venv/bin/python3 /opt/stacybot/transferto.py (code=exited, status=1/FAILURE)
+   Main PID: 264994 (code=exited, status=1/FAILURE)
+        CPU: 605ms
+● stacybot.service - Stacy Telegram Bot
+     Loaded: loaded (/etc/systemd/system/stacybot.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2026-01-14 05:18:09 UTC; 39ms ago
+   Main PID: 265097 (python3)
+      Tasks: 1 (limit: 18690)
+     Memory: 5.8M (max: 512.0M available: 506.1M peak: 5.8M)
+        CPU: 36ms
+     CGroup: /system.slice/stacybot.service
+             └─265097 /opt/stacybot/venv/bin/python3 /opt/stacybot/transferto.py
+
+Jan 14 05:18:09 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 05:17:59 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 05:17:59 null systemd[1]: stacybot.service: Main process exited, code=exited, status=1/FAILURE
+Jan 14 05:17:59 null systemd[1]: stacybot.service: Failed with result 'exit-code'.
+Jan 14 05:18:09 null systemd[1]: stacybot.service: Scheduled restart job, restart counter is at 1.
+Jan 14 05:18:09 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 05:18:09 null systemd[1]: Stopping stacybot.service - Stacy Telegram Bot...
+Jan 14 05:18:09 null systemd[1]: stacybot.service: Deactivated successfully.
+Jan 14 05:18:09 null systemd[1]: Stopped stacybot.service - Stacy Telegram Bot.
+Jan 14 05:18:09 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 05:18:10 null systemd[1]: stacybot.service: Main process exited, code=exited, status=1/FAILURE
+Jan 14 05:18:10 null systemd[1]: stacybot.service: Failed with result 'exit-code'.
+Jan 14 05:18:20 null systemd[1]: stacybot.service: Scheduled restart job, restart counter is at 1.
+Jan 14 05:18:20 null systemd[1]: Started stacybot.service - Stacy Telegram Bot.
+Jan 14 05:18:21 null systemd[1]: stacybot.service: Main process exited, code=exited, status=1/FAILURE
+Jan 14 05:18:21 null systemd[1]: stacybot.service: Failed with result 'exit-code'.

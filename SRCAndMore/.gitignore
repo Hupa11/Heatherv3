@@ -1,0 +1,121 @@
+# ============================================================================
+# Sensitive Data - NEVER COMMIT
+# ============================================================================
+.env
+.env.local
+.env.*.local
+
+# Keys and credentials
+*.key
+*.pem
+*_keys.txt
+extracted_keys.txt
+stripe_sk_live_keys.txt
+2000x_SK_Genarated_By_*
+
+# ============================================================================
+# Logs and Metrics
+# ============================================================================
+*.log
+logs/
+bot.log
+test_results.log
+test_results.txt
+
+# ============================================================================
+# Test and Development Files
+# ============================================================================
+test_*.py
+tests/test_*.py
+test_results.json
+test_results.*.json
+phase*_test_results.*
+.profile_report.json
+PHASE*.md
+
+# ============================================================================
+# Development Documentation
+# ============================================================================
+*_SUMMARY.md
+*_REPORT.md
+*_PLAN.md
+*_PROGRESS.md
+*_STATUS.md
+*_COMPLETION.md
+COMMANDS_REFERENCE.md
+COMMAND_UPDATES.md
+ACTUAL_PHASE_TRACKER.md
+QUICK_REFERENCE.md
+IMPLEMENTATION_*.md
+INTEGRATION_*.md
+GATEWAY_*.md
+SHOPIFY_*.md
+STRIPE_*.md
+
+# ============================================================================
+# Generated and Cache Files
+# ============================================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# Data and Cache
+# ============================================================================
+uploaded_files/
+targets.txt
+TestCards.txt
+*.txt
+.shopify_*.json
+.smoke_report.json
+.profile_report.json
+
+# ============================================================================
+# Development
+# ============================================================================
+venv/
+env/
+ENV/
+FilesToLookAt/
+*.backup
+transferto.py.backup
+QUICK_COMMANDS.sh
+You_did_not_*.txt
+And_seperate_*.txt
+
+# ============================================================================
+# Python Virtual Environment
+# ============================================================================
+*.egg-info
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ============================================================================
+# IDE
+# ============================================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
